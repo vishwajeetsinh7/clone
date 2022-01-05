@@ -1,0 +1,216 @@
+body, html{
+    background-color: #fafafa;
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    height:100%;
+    width: 70%;
+    /* background-color: green; */
+    display:flex;
+    margin: auto;
+}
+
+.phone{
+    margin:auto;
+    width: 370px;
+    display: none;
+
+    height: 90%;
+    /* background-color:rgb(16, 240, 248); */
+    margin-top: 50px;
+    /* margin-left: 100px; */
+}
+.phone > .one{
+    display: flex;
+    position: absolute;
+    width:16em;
+    height: 455px;
+    top: 155px;
+    margin-left: 153px;
+}
+.phone{
+    
+  
+}
+.phone > img{
+    margin-left: 0px;
+}
+
+.container{
+    margin:auto;
+    width: 370px;
+
+    /* background-color:pink; */
+    margin-top: 50px;
+    /* margin-right: 100px; */
+}
+
+
+@media screen and (min-width:1250px) {
+    .phone{
+        display: flex;
+        
+    }}
+
+
+    .main{
+        background-color: white;
+        border: solid 1px rgb(207, 198, 198);
+        height: 65%;
+    }
+    
+    .logo{
+        /* display: flex; */
+        margin-top: 30px;
+    }
+    
+    .logo > img{
+        display: flex;
+        width:10rem;
+        margin: auto;
+    }
+    .form{
+        margin-top:25px;
+    
+    }
+    
+    input[type="text"],input[type="password"]{
+        display: block;
+        width: 280px;
+        height: 34px;
+        margin: auto;
+        margin-top: 15px;
+        border: 1px solid lightgrey;
+        
+    }
+    form > input[type="submit"]{
+        display: block;
+        width: 280px;
+        height: 34px;
+        background-color: rgb(38, 182, 230);
+        color: white;
+        border: none;
+        border-radius:3px ;
+        margin: auto;
+        margin-top: 20px;
+    
+    }
+    .or{
+        display: flex;
+        /* background-color: red; */
+        width: 280px;
+        margin: auto;
+        margin-top: 20px;
+        
+    }
+    .or-border{
+        width: 60%;
+        
+        /* background-color: green; */
+    }
+    hr{
+        border:1px solid lightgrey;
+    }
+    
+    .or-text{
+        width: 40%;
+        text-align: center;
+        /* background-color: orange; */
+    }
+    .facebook{
+        width: 280px;
+        display:flex;
+        margin: auto;
+        /* background-color: red; */
+       
+    }
+    .facebook:hover{
+        cursor: pointer;
+        
+    }
+    .facebook-text:hover{
+        color: lightblue;
+    }
+    
+    
+    .facebook-text{
+        /* margin-left: 30px; */
+        width: 65%;
+        text-align: center;
+        margin-left: -15px;
+        font-weight: bold;
+        /* background-color: yellow; */
+    }
+    .facebook > img{
+        width: 20px;
+        padding: 20px;
+        margin-left: 25px;
+        /* background-color: green; */
+        
+    }
+    
+    .forgot{
+        width: 280px;
+        display: flex;
+        margin: auto;
+        margin-bottom: 0px;
+    }
+    .forgot > h6{
+        margin: auto;
+        font-weight:400;
+    }
+    
+    .forgot-text{
+        color: black;
+        text-decoration: none;
+    }
+    .forgot:hover, .forgot-text:hover{
+        cursor: pointer;
+        color: red;
+        
+    }
+    
+    /* second box  */
+    
+    .second{
+        background-color: white;
+        border: solid 1px rgb(207, 198, 198);
+        height: 10%;
+        margin-top: 15px;
+    }
+    
+    .second-text{
+        text-align: center;
+    }
+    
+    .second-text > h5{
+        font-weight:400;
+    }
+    .second-text > h5 > a{
+        color:rgb(97, 210, 255) ;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    
+    .third{
+        height: 20%;
+        text-align: center;
+        /* background-color: pink; */
+    
+    }
+    .third > h4{
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+    .download-image{
+        display: inline;
+    }
+    
+    .download-image > img{
+        width: 120px;
+        padding: 5px;
+        
+      
+    }
